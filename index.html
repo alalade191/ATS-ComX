@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="images/png" href="./Images/favicon.png"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>ComX</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar" style="position: relative">
+        <div>
+          <div>
+            <img src="/images/comx-logo.svg" alt="logo" />
+          </div>
+          <!-- Menus -->
+          <div class="menu">
+            <div class="link">
+              <img
+                class="dashboard"
+                src="/images/dashboard.svg"
+                alt="dashboard"
+              />
+              <span>Dashboard</span>
+            </div>
+            <div class="link active" title="market">
+              <img src="/images/market.svg" alt="dashboard" />
+            </div>
+            <div class="link">
+              <img
+                class="portfolio"
+                src="/images/portfolio.svg"
+                alt="dashboard"
+              />
+              <span>Portfolio</span>
+            </div>
+            <div class="link">
+              <img
+                class="community"
+                src="/images/profile.svg"
+                alt="dashboard"
+              />
+              <span>Community</span>
+            </div>
+            <div class="link">
+              <img class="report" src="/images/document.svg" alt="dashboard" />
+              <span>Report</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="link">
+            <img class="settings" src="/images/settings.svg" alt="dashboard" />
+            <span>Settings</span>
+          </div>
+          <div class="link">
+            <img class="logout" src="/images/logout.svg" alt="dashboard" />
+            <span>Logout</span>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+          <p>Home > <span>Market</span></p>
+        </div>
+        <!-- Header -->
+        <div>
+          <div class="header">
+            <h1 class="title">Market</h1>
+            <div>
+              <div class="page-settings">
+                <p>Page Setting</p>
+                <img src="/images/candle.svg" alt="candle-icon" />
+              </div>
+              <div class="page-settings">
+                <p>Demo</p>
+                <img src="/images/drop-down.svg" alt="dropdown-icon" />
+              </div>
+            </div>
+          </div>
+          <p class="title-description">
+            Lorem ipsum dolor sit amet consectetur. Adipiscing egestas
+          </p>
+        </div>
+
+        <!-- Card Contaioner -->
+        <div class="cards-scroll-wrapper">
+          <div class="cards-wrapper">
+            <div class="card">
+              <p class="title">Cash Balance</p>
+              <div class="inner-container">
+                <div>
+                  <div>
+                    <h3 class="amount">₦ 8,374,763</h3>
+                  </div>
+                  <div>
+                    <span class="category decline">Decline</span>
+                    <span class="helper-text">Monitored Monthly</span>
+                  </div>
+                </div>
+
+                <div class="card-image">
+                  <img src="/images/graphics.svg" alt="graphics-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <p class="title">Securities Value</p>
+              <div class="inner-container">
+                <div>
+                  <div>
+                    <h3 class="amount">₦ 8,374,763</h3>
+                  </div>
+                  <div>
+                    <span class="category decline">Decline</span>
+                    <span class="helper-text">Monitored Monthly</span>
+                  </div>
+                </div>
+
+                <div class="card-image">
+                  <img src="/images/graphics2.svg" alt="graphics-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <p class="title">Loan Balance</p>
+              <div class="inner-container">
+                <div>
+                  <div>
+                    <h3 class="amount">₦ 8,374,763</h3>
+                  </div>
+                  <div>
+                    <span class="category increment">Increment</span>
+                    <span class="helper-text">Monitored Monthly</span>
+                  </div>
+                </div>
+
+                <div class="card-image">
+                  <img src="/images/graphics3.svg" alt="graphics-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab and Table Container -->
+        <div class="table-tab-container">
+          <div class="tabs-scrollbar-wrapper">
+            <div class="tabs-container">
+              <div class="tab">
+                <p>Product View</p>
+              </div>
+              <div class="tab active">
+                <p>Order Books</p>
+              </div>
+              <div class="tab">
+                <p>Price History</p>
+              </div>
+              <div class="tab">
+                <p>Open Orders</p>
+                <span class="tag">10</span>
+              </div>
+              <div class="tab">
+                <p>Closed Trades</p>
+                <span class="tag">20</span>
+              </div>
+              <div class="tab">
+                <p>Canceled Trades</p>
+                <span class="tag">20</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Table Container -->
+          <div class="table-container">
+            <div>
+              <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <p
+                        style="
+                          font-size: clamp(16px, 1.389vw, 25px);
+                          font-weight: 600;
+                          padding: 15px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          width: 100%;
+                        "
+                      >
+                        Buy Board
+                      </p>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 40%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Product
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Quality
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Price
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Action
+                      </th>
+                    </tr>
+
+                    <!-- Datas -->
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2003
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Paddy Rice (SPRL)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        86
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Maize (SMAZ)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2003
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Sorghum (SSGM)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2003
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Fair Trade ETC (FETC)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2003
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2003
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td style="text-align: start; font-weight: 500; font-size: clamp(18px, 1.1vw, 25px);">2003</td>
+                      <td
+                        style="
+                          text-align: start;
+                          font-weight: 500;
+                          color: #2d8a39;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          font-weight: 500;
+                          color: #2d8a39;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #f0faf0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <p
+                        style="
+                          font-size: clamp(16px, 1.389vw, 25px);
+                          font-weight: 600;
+                          padding: 15px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          width: 100%;
+                        "
+                      >
+                        Sell Board
+                      </p>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 40%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Product
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Quality
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Price
+                      </th>
+                      <th
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          color: #5f6d7e;
+                          width: 20%;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Action
+                      </th>
+                    </tr>
+
+                    <!-- Datas -->
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        267
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Paddy Rice (SPRL)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        353
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Maize (SMAZ)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2035
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color:  #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Sorghum (SSGM)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        353
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Fair Trade ETC (FETC)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        2535
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        143
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          border-bottom: 2px solid #efeff1;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Buy</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          text-align: start;
+                          padding: 10px 20px;
+                          font-weight: 500;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        Soybeans (SSBS)
+                      </td>
+                      <td style="text-align: start; font-weight: 500; font-size: clamp(18px, 1.1vw, 25px);">206</td>
+                      <td
+                        style="
+                          text-align: start;
+                          font-weight: 500;
+                          color: #e2341d;
+                          font-size: clamp(18px, 1.1vw, 25px);
+                        "
+                      >
+                        6,417.39
+                      </td>
+                      <td
+                        style="
+                          text-align: start;
+                          font-weight: 500;
+                          color: #e2341d;
+                        "
+                      >
+                        <span
+                          style="
+                            border-radius: 5px;
+                            padding: 2px 10px;
+                            font-size: clamp(15px, 0.9vw, 17px);
+                            font-weight: 500;
+                            background-color: #fff2f0;
+                            width: fit;
+                          "
+                          >Sell</span
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="trade-log-scroll-wrapper">
+              <div class="trade-log">
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <p
+                          style="
+                            font-size: clamp(16px, 1.389vw, 25px);
+                            font-weight: 600;
+                            padding: 15px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            width: 100%;
+                          "
+                        >
+                          Trade log
+                        </p>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 20%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Security
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 15%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Board
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 15%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Order Type
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 15%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Matched price
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 15%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Quantity
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 10%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Data
+                        </th>
+                        <th
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            color: #5f6d7e;
+                            width: 10%;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Time
+                        </th>
+                      </tr>
+
+                      <!-- Datas -->
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Soybeans (SSBS)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          X-Traded
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Sell
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Paddy Rice (SPRL)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          X-Traded
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Sell
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          86
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Maize (SMAZ)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          OTC
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Buy
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Sorghum (SSGM)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          FI
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Buy
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Fair Trade ETC (FETC)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          FI
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Buy
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            border-bottom: 2px solid #efeff1;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Soybeans (SSBS)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          X-Traded
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Sell
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td
+                          style="
+                            text-align: start;
+                            padding: 10px 20px;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Soybeans (SSBS)
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Derivatives
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          Sell
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          1792.65
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          2003
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            color: #2d8a39;
+                            font-size: clamp(18px, 1.1vw, 25px);
+                          "
+                        >
+                          17 Oct, 2020
+                        </td>
+                        <td
+                          style="
+                            text-align: start;
+                            font-weight: 500;
+                            color: #2d8a39;
+                          "
+                        >
+                          <span
+                            style="
+                              border-radius: 5px;
+                              padding: 2px 10px;
+                              font-size: clamp(15px, 0.9vw, 17px);
+                              font-weight: 500;
+                              background-color: #f0faf0;
+                              width: fit;
+                            "
+                            >07:38</span
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Marque Footer -->
+        <div class="marquee-container">
+          <div class="live-market">
+            <p>Live Market</p>
+          </div>
+            <marquee>
+            <div class="marquee-items-wrapper">
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+              <div class="marquee-item">
+                <h6>Sorghum (SSGM)</h6>
+                <p>₦30,834.59</p>
+              </div>
+            </div>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

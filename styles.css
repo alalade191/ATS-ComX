@@ -1,0 +1,470 @@
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff2")
+        format("woff2"),
+      url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff")
+        format("woff"),
+      url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  .root {
+    --danger_color: #d71e0e;
+    --gray-default: #5f6d7e;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Switzer";
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    height: 100vh;
+    width: 98px;
+    background-color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .menu .link {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .menu .link > span {
+    position: absolute;
+    left: 100px;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px 7px;
+    z-index: 1;
+    border-radius: 5px;
+    display: none;
+  }
+  .dashboard:hover + span {
+    display: block;
+  }
+  .portfolio:hover + span {
+    display: block;
+  }
+  .market:hover + span {
+    display: block;
+  }
+  .community:hover + span {
+    display: block;
+  }
+  .report:hover + span {
+    display: block;
+  }
+  .settings:hover + span {
+    display: block;
+  }
+  .logout:hover + span {
+    display: block;
+  }
+  .menu .link:hover {
+    background-color: #f3f9fe;
+  }
+  
+  .menu .link.active {
+    background-color: #f3f9fe;
+  }
+  
+  /* Main Container */
+  .main-container {
+    height: calc(100vh - 51px);
+    flex-grow: 1;
+    background-color: #fafbfc;
+    padding: 25px;
+    padding-bottom: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: hidden;
+  }
+  .main-container .breadcrumb{
+    font-size: clamp(16px, 0.972vw, 16px);
+  }
+  .main-container .breadcrumb > p > span {
+    color: #d71e0e;
+    cursor: pointer;
+  }
+  
+  .main-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-container .header .title {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .main-container .header > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main-container .header .page-settings {
+    border: 1px solid #dae0e6;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .main-container .header .title-description {
+    color: var(--gray-default);
+  }
+  
+  /* Card Container */
+  .main-container .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    overflow-x: auto;
+  }
+  .main-container .cards-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .main-container .cards-wrapper .card {
+    border: 1px solid #dae0e6;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px 15px;
+  }
+  
+  .main-container .cards-wrapper .card .title {
+    font-size: clamp(18px, 1.1vw, 25px);
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .main-container .cards-wrapper .card .inner-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .main-container .cards-wrapper .card .amount {
+    /* font-size: 28px; */
+    font-size: clamp(20px, 1.9vw, 33px);
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .main-container .cards-wrapper .card .category {
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: clamp(15px, 0.9vw, 17px);
+    font-weight: 500;
+  }
+  
+  .main-container .cards-wrapper .card .category.decline {
+    background-color: #fff2f0;
+    color: #e2341d;
+  }
+  
+  .main-container .cards-wrapper .card .category.increment {
+    background-color: #f0faf0;
+    color: #2d8a39;
+  }
+  
+  .main-container .cards-wrapper .card .helper-text {
+    font-size: clamp(16px, 0.9vw, 19px);
+    white-space: nowrap;
+  }
+  
+  /* Tab */
+  .main-container .tabs-container {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid #5f6d7e22;
+  }
+  .main-container .tabs-container .tab {
+    padding-block: 10px;
+    cursor: pointer;
+    color: #5f6d7e;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .main-container .tabs-container .tab:hover {
+    border-bottom: 2px solid #5f6d7e;
+    color: #000;
+  }
+  .main-container .tabs-container .tab.active {
+    padding-block: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #d71e0e;
+    color: #d71e0e;
+  }
+  .main-container .tabs-container .tab > p {
+    font-size: clamp(16px, 1.0vw, 20px);
+  }
+  .main-container .tabs-container .tab .tag {
+    border-radius: 20px;
+    background-color: #efeff1;
+    padding-inline: 5px;
+    font-size: 12px;
+  }
+  
+  .main-container .tabs-scrollbar-wrapper .tabs-container .tab:hover .tag{
+    background: #000;
+    color:#fff;
+  }
+  
+  /* Table */
+  .main-container .table-tab-container {
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .main-container .table-container {
+    padding-block: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-container .table-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .main-container .table-container > div {
+    display: flex;
+    gap: 20px;
+  }
+  .main-container .table-container .table-wrapper {
+    background-color: white;
+    flex-grow: 1;
+    border-radius: 20px;
+    border: 2px solid #efeff1;
+    overflow: hidden;
+  }
+  .main-container .table-container .table-wrapper table {
+    width: 100%;
+  }
+  .main-container .table-container .trade-log-scroll-wrapper .trade-log {
+    width: 100%;
+  }
+  
+  /* Footer */
+  .marquee-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 51px;
+    width: calc(100% - 98px);
+    display: flex;
+  }
+  
+  .marquee-container .live-market {
+    background-color: black;
+    height: 51px;
+    color: white;
+    width: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .marquee-container .marquee-items-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .marquee-container .marquee-items-wrapper .marquee-item {
+    padding-inline: 20px;
+  }
+  .marquee-container .marquee-items-wrapper .marquee-item > h6,
+  .marquee-container .marquee-items-wrapper .marquee-item > p {
+    font-size: clamp(16px, 0.972vw, 16px);
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 820px) {
+    .main-container .cards-wrapper {
+      overflow-x: auto;
+    }
+    .main-container .cards-wrapper .card .inner-container {
+      display: flex;
+      gap: 10;
+    }
+    .card-image{
+      display: flex;
+      align-items: flex-end;
+    }
+    .main-container .table-container > div {
+      flex-direction: column;
+    }
+    .main-container .table-container .trade-log {
+      overflow-x: auto;
+    }
+    .main-container .table-container .trade-log .table-wrapper {
+      width: 850px;
+    }
+    .main-container .tabs-container {
+      overflow-x: auto;
+    }
+    .main-container .tabs-container .tab > p {
+      white-space: nowrap;
+    }
+
+  
+    
+    .main-container .table-container .trade-log::-webkit-scrollbar,
+    .main-container .cards-wrapper::-webkit-scrollbar,
+    .main-container .tabs-container::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 2560px){
+    .inner-container>div{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+    .card-image{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-image img{
+      display: block;
+      width: 80%;
+      margin-inline: auto;
+    }
+  }
